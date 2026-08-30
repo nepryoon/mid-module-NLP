@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment outputs
+outputs/
+toxic_comment_three_model_outputs_*/
+*.log
+*.pid
+.latest_run_*
+
+# Secrets and local configuration
+.env
+.env.*
+kaggle.json
+credentials.json
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
