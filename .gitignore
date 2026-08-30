@@ -26,3 +26,8 @@ credentials.json
 Thumbs.db
 .vscode/
 .idea/
+__pycache__/
+*.pyc
+*.log
+*.pid
+.ipynb_checkpoints/
