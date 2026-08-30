@@ -1,0 +1,30 @@
+{
+  "best_single_candidate": "word_tfidf__logistic_regression",
+  "candidate_count": 6,
+  "ensemble_audit": {
+    "accepted_for_submission": null,
+    "best_single_mean_column_roc_auc": null,
+    "rank_ensemble_mean_column_roc_auc": null
+  },
+  "ensemble_enabled": false,
+  "leaderboard_comparison": {
+    "gap_to_reference": null,
+    "observed_kaggle_score": null,
+    "status": "Pending an actual Kaggle submission; CV AUC is not compared with leaderboard AUC.",
+    "user_provided_reference_auc": 0.98856
+  },
+  "model_families": [
+    "Logistic Regression",
+    "Linear SVM",
+    "Multilayer Perceptron"
+  ],
+  "model_selection_rationale": "The three families were frozen before the definitive run using only the supplied project artefacts and local CPU pilot experiments. Logistic Regression and Linear SVM gave the strongest sparse-text rankings; the compact MLP was retained as the strongest practical non-linear candidate. No excluded algorithm is rerun in this assessed script and no web or leaderboard-solution research informed the selection.",
+  "representations": [
+    "Word TF-IDF",
+    "Character Bag-of-N-grams"
+  ],
+  "selected_cross_validation_mean_column_roc_auc": 0.8805821808346201,
+  "selection_score_note": "This is a model-selection estimate averaged across development folds, not an untouched final generalisation estimate.",
+  "status": "completed",
+  "submissions": {}
+}

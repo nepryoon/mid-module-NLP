@@ -1,0 +1,7 @@
+{
+  "canonicalisation": "Unicode NFKC, case folding and whitespace collapse",
+  "groups_with_inconsistent_label_vectors": 0,
+  "normalised_text_groups": 5000,
+  "rows": 5000,
+  "rows_in_non_singleton_groups": 0
+}

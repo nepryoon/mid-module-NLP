@@ -1,0 +1,33 @@
+{
+  "best_single_candidate": "character_bag_of_ngrams__linear_svm",
+  "candidate_count": 6,
+  "ensemble_audit": {
+    "accepted_for_submission": true,
+    "best_single_mean_column_roc_auc": 0.9836083027283427,
+    "rank_ensemble_mean_column_roc_auc": 0.9839859027698692
+  },
+  "ensemble_enabled": true,
+  "leaderboard_comparison": {
+    "gap_to_reference": null,
+    "observed_kaggle_score": null,
+    "status": "Pending an actual Kaggle submission; CV AUC is not compared with leaderboard AUC.",
+    "user_provided_reference_auc": 0.98856
+  },
+  "model_families": [
+    "Logistic Regression",
+    "Linear SVM",
+    "Multilayer Perceptron"
+  ],
+  "model_selection_rationale": "The three families were frozen before the definitive run using only the supplied project artefacts and local CPU pilot experiments. Logistic Regression and Linear SVM gave the strongest sparse-text rankings; the compact MLP was retained as the strongest practical non-linear candidate. No excluded algorithm is rerun in this assessed script and no web or leaderboard-solution research informed the selection.",
+  "representations": [
+    "Word TF-IDF",
+    "Character Bag-of-N-grams"
+  ],
+  "selected_cross_validation_mean_column_roc_auc": 0.9826266919874115,
+  "selection_score_note": "This is a model-selection estimate averaged across development folds, not an untouched final generalisation estimate.",
+  "status": "completed",
+  "submissions": {
+    "best_single": "/home/luca/Documents/NLP - Mid-module assignment/New version/outputs/final_20260830_143444/submission_best_single.csv",
+    "rank_ensemble": "/home/luca/Documents/NLP - Mid-module assignment/New version/outputs/final_20260830_143444/submission_rank_ensemble.csv"
+  }
+}

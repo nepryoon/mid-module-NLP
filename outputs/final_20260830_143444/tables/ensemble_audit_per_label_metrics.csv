@@ -1,0 +1,7 @@
+candidate,label,roc_auc
+Rank ensemble,toxic,0.9802581028368493
+Rank ensemble,severe_toxic,0.9846046339702508
+Rank ensemble,obscene,0.9892041263890421
+Rank ensemble,threat,0.9942051846121613
+Rank ensemble,insult,0.9822967801785784
+Rank ensemble,identity_hate,0.9733465886323333

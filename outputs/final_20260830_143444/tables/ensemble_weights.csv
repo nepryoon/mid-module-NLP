@@ -1,0 +1,7 @@
+label,candidate,weight
+All labels,word_tfidf__logistic_regression,0.5
+All labels,word_tfidf__linear_svm,0.0
+All labels,word_tfidf__multilayer_perceptron,0.0
+All labels,character_bag_of_ngrams__logistic_regression,0.0
+All labels,character_bag_of_ngrams__linear_svm,0.5
+All labels,character_bag_of_ngrams__multilayer_perceptron,0.0

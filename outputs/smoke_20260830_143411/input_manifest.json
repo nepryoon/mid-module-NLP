@@ -1,0 +1,23 @@
+{
+  "mlp_weighting": "Native sample_weight; scikit-learn 1.7 or later required",
+  "network_access_used": false,
+  "runtime_versions": {
+    "iterative_stratification": "0.1.9",
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "python": "3.14.4",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.18.1"
+  },
+  "sample_submission": null,
+  "test": null,
+  "test_shape": null,
+  "train": {
+    "path": "/home/luca/Documents/NLP - Mid-module assignment/New version/train.csv.zip",
+    "sha256": "59046551e4723d37993933a629d9de4bef9dd5b3adb9ed6b41ac7932ffae2eb1"
+  },
+  "training_shape": [
+    5000,
+    8
+  ]
+}

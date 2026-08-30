@@ -1,0 +1,31 @@
+{
+  "axis_order": [
+    "development row",
+    "candidate",
+    "label"
+  ],
+  "candidates": [
+    "word_tfidf__logistic_regression",
+    "word_tfidf__linear_svm",
+    "word_tfidf__multilayer_perceptron",
+    "character_bag_of_ngrams__logistic_regression",
+    "character_bag_of_ngrams__linear_svm",
+    "character_bag_of_ngrams__multilayer_perceptron"
+  ],
+  "duplicate_safe": true,
+  "format": "NumPy compressed archive",
+  "labels": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "score_shape": [
+    134039,
+    6,
+    6
+  ],
+  "vectorisers_fitted_within_each_fold": true
+}

@@ -1,0 +1,171 @@
+{
+  "character_max_df": 0.995,
+  "character_max_features": 3000,
+  "character_min_df": 2,
+  "character_ngram_max": 5,
+  "character_ngram_min": 3,
+  "create_submissions": false,
+  "eda_top_words": 15,
+  "eda_vocabulary_limit": 60000,
+  "ensemble_search_iterations": 384,
+  "ensemble_weight_mode": "global",
+  "id_column": "id",
+  "label_columns": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "leaderboard_reference_auc": 0.98856,
+  "linear_max_iter": 5000,
+  "linear_parameters": {
+    "Character Bag-of-N-grams": {
+      "Linear SVM": {
+        "identity_hate": {
+          "C": 0.2,
+          "class_weight": null
+        },
+        "insult": {
+          "C": 0.2,
+          "class_weight": null
+        },
+        "obscene": {
+          "C": 0.2,
+          "class_weight": null
+        },
+        "severe_toxic": {
+          "C": 0.2,
+          "class_weight": null
+        },
+        "threat": {
+          "C": 0.2,
+          "class_weight": null
+        },
+        "toxic": {
+          "C": 0.2,
+          "class_weight": null
+        }
+      },
+      "Logistic Regression": {
+        "identity_hate": {
+          "C": 2.0,
+          "class_weight": null
+        },
+        "insult": {
+          "C": 2.0,
+          "class_weight": null
+        },
+        "obscene": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "severe_toxic": {
+          "C": 2.0,
+          "class_weight": null
+        },
+        "threat": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "toxic": {
+          "C": 4.0,
+          "class_weight": null
+        }
+      }
+    },
+    "Word TF-IDF": {
+      "Linear SVM": {
+        "identity_hate": {
+          "C": 0.5,
+          "class_weight": "balanced"
+        },
+        "insult": {
+          "C": 0.5,
+          "class_weight": null
+        },
+        "obscene": {
+          "C": 0.5,
+          "class_weight": null
+        },
+        "severe_toxic": {
+          "C": 0.5,
+          "class_weight": "balanced"
+        },
+        "threat": {
+          "C": 0.5,
+          "class_weight": "balanced"
+        },
+        "toxic": {
+          "C": 0.5,
+          "class_weight": null
+        }
+      },
+      "Logistic Regression": {
+        "identity_hate": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "insult": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "obscene": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "severe_toxic": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "threat": {
+          "C": 4.0,
+          "class_weight": null
+        },
+        "toxic": {
+          "C": 4.0,
+          "class_weight": null
+        }
+      }
+    }
+  },
+  "logistic_solver": "liblinear",
+  "meta_audit_fraction": 0.5,
+  "meta_fraction": 0.16,
+  "mlp_balance_weight_cap": 8.0,
+  "mlp_batch_size": 1024,
+  "mlp_max_iter": 3,
+  "mlp_parameters": {
+    "Character Bag-of-N-grams": {
+      "alpha": 0.0001,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "learning_rate_init": 0.001
+    },
+    "Word TF-IDF": {
+      "alpha": 0.0001,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "learning_rate_init": 0.001
+    }
+  },
+  "mlp_svd_components": 16,
+  "mlp_svd_iterations": 4,
+  "n_splits": 2,
+  "observed_kaggle_score": null,
+  "output_dir": "/home/luca/Documents/NLP - Mid-module assignment/New version/outputs/smoke_20260830_143411",
+  "row_limit": 5000,
+  "run_eda": false,
+  "seed": 42,
+  "text_column": "comment_text",
+  "threshold": 0.5,
+  "use_ensemble": false,
+  "word_max_df": 0.995,
+  "word_max_features": 2000,
+  "word_min_df": 2,
+  "word_ngram_max": 2,
+  "word_ngram_min": 1
+}

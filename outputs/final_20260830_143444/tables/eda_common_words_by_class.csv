@@ -1,0 +1,106 @@
+class,display_class,rank,word,frequency
+toxic,Toxic,1,fuck,9919
+toxic,Toxic,2,shit,3621
+toxic,Toxic,3,wikipedia,3596
+toxic,Toxic,4,like,3510
+toxic,Toxic,5,nigger,3298
+toxic,Toxic,6,fucking,3290
+toxic,Toxic,7,suck,3235
+toxic,Toxic,8,ass,2940
+toxic,Toxic,9,hate,2631
+toxic,Toxic,10,don't,2497
+toxic,Toxic,11,just,2481
+toxic,Toxic,12,gay,2239
+toxic,Toxic,13,know,2198
+toxic,Toxic,14,page,2144
+toxic,Toxic,15,die,2082
+severe_toxic,Severe toxicity,1,fuck,7301
+severe_toxic,Severe toxicity,2,suck,2535
+severe_toxic,Severe toxicity,3,ass,2114
+severe_toxic,Severe toxicity,4,shit,1884
+severe_toxic,Severe toxicity,5,faggot,1570
+severe_toxic,Severe toxicity,6,fucking,1456
+severe_toxic,Severe toxicity,7,die,1156
+severe_toxic,Severe toxicity,8,bitch,1114
+severe_toxic,Severe toxicity,9,nigger,1012
+severe_toxic,Severe toxicity,10,sucks,961
+severe_toxic,Severe toxicity,11,cunt,833
+severe_toxic,Severe toxicity,12,wikipedia,769
+severe_toxic,Severe toxicity,13,cock,681
+severe_toxic,Severe toxicity,14,yourselfgo,621
+severe_toxic,Severe toxicity,15,dick,596
+obscene,Obscene,1,fuck,9844
+obscene,Obscene,2,shit,3211
+obscene,Obscene,3,fucking,3193
+obscene,Obscene,4,suck,3021
+obscene,Obscene,5,ass,2847
+obscene,Obscene,6,nigger,2726
+obscene,Obscene,7,wikipedia,1873
+obscene,Obscene,8,bitch,1796
+obscene,Obscene,9,like,1541
+obscene,Obscene,10,cunt,1528
+obscene,Obscene,11,don't,1355
+obscene,Obscene,12,fat,1282
+obscene,Obscene,13,dick,1257
+obscene,Obscene,14,faggot,1222
+obscene,Obscene,15,just,1215
+threat,Threat,1,die,1168
+threat,Threat,2,ass,772
+threat,Threat,3,kill,504
+threat,Threat,4,going,296
+threat,Threat,5,wikipedia,198
+threat,Threat,6,block,170
+threat,Threat,7,fuck,165
+threat,Threat,8,jim,158
+threat,Threat,9,wales,157
+threat,Threat,10,supertr0ll,151
+threat,Threat,11,fucking,139
+threat,Threat,12,ban,132
+threat,Threat,13,don't,130
+threat,Threat,14,page,128
+threat,Threat,15,talk,113
+insult,Insult,1,fuck,7913
+insult,Insult,2,fucking,2800
+insult,Insult,3,suck,2792
+insult,Insult,4,nigger,2780
+insult,Insult,5,ass,2212
+insult,Insult,6,fat,1926
+insult,Insult,7,faggot,1866
+insult,Insult,8,bitch,1734
+insult,Insult,9,shit,1690
+insult,Insult,10,like,1565
+insult,Insult,11,moron,1458
+insult,Insult,12,cunt,1439
+insult,Insult,13,hi,1400
+insult,Insult,14,wikipedia,1398
+insult,Insult,15,hate,1386
+identity_hate,Identity-based hate,1,nigger,2968
+identity_hate,Identity-based hate,2,fat,1322
+identity_hate,Identity-based hate,3,jew,1313
+identity_hate,Identity-based hate,4,gay,918
+identity_hate,Identity-based hate,5,fuck,879
+identity_hate,Identity-based hate,6,die,879
+identity_hate,Identity-based hate,7,faggot,742
+identity_hate,Identity-based hate,8,fucking,519
+identity_hate,Identity-based hate,9,huge,430
+identity_hate,Identity-based hate,10,suck,427
+identity_hate,Identity-based hate,11,shit,409
+identity_hate,Identity-based hate,12,stupid,396
+identity_hate,Identity-based hate,13,cunt,394
+identity_hate,Identity-based hate,14,like,384
+identity_hate,Identity-based hate,15,ass,374
+clean,Clean,1,article,54492
+clean,Clean,2,page,43885
+clean,Clean,3,wikipedia,41957
+clean,Clean,4,talk,35554
+clean,Clean,5,just,25083
+clean,Clean,6,like,24201
+clean,Clean,7,don't,20166
+clean,Clean,8,think,18685
+clean,Clean,9,edit,17225
+clean,Clean,10,know,16751
+clean,Clean,11,i'm,16235
+clean,Clean,12,it's,16231
+clean,Clean,13,articles,16155
+clean,Clean,14,use,16081
+clean,Clean,15,people,15903

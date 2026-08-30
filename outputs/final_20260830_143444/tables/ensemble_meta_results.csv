@@ -1,0 +1,4 @@
+partition,candidate,mean_column_roc_auc,metric_scope,accepted_for_submission,element_wise_accuracy,subset_accuracy,macro_precision,macro_recall,macro_f1,micro_precision,micro_recall,micro_f1
+Ensemble optimisation,Rank ensemble,0.9857098583084151,,,,,,,,,,
+Untouched audit,Rank ensemble,0.9839859027698692,ROC-AUC only; rank scores have no fixed class threshold,True,,,,,,,,
+Untouched audit,character_bag_of_ngrams__linear_svm,0.9836083027283427,All required thresholded metrics and ROC-AUC,False,0.9815801154016867,0.9201065246338216,0.8492968628513777,0.39269481750244034,0.50158336592189,0.8858875413450937,0.5716826752045535,0.6949189189189189

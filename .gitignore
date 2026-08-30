@@ -9,7 +9,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Experiment outputs
-outputs/
 toxic_comment_three_model_outputs_*/
 *.log
 *.pid
